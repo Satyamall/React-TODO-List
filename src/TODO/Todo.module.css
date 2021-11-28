@@ -1,0 +1,61 @@
+
+.todo{
+    width: 400px;
+    border: 1px solid red;
+    background-color: rgb(235,222,196);
+    margin-top: 60px;
+    padding-bottom: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDhQftCDxivKkVkhnwVPPBKuFz3nph-fHgNw&usqp=CAU");
+}
+
+.todoItem input{
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgb(141,156,125);
+    color: white;
+}
+.todoItem button{
+    padding: 8px 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.list{
+    width: 380px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin: 10px;
+}
+.delete{
+    font-size: 23px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: rgb(214, 192, 192);
+    color: white;
+    margin-right: 10px;
+}
+.delete:hover{
+    background-color: black;
+}
+
+.show{
+    background-color: rgb(141,156,125);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
